@@ -1,0 +1,43 @@
+# Compiled output
+/dist
+/build
+/lib
+/*.js
+!/*.ts
+/*.map
+!*.ts.map
+
+# Dependencies
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.diff
+*.patch
+
+# Coverage and testing
+coverage
+.nyc_output
+
+# Environment files
+.env
+.env.local
+
+# Editor/OS files
+.vscode
+.idea
+.DS_Store
+*.suo
+*.user
+*.usercode
+*.lock-wscript
