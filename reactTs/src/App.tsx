@@ -1,4 +1,5 @@
 import './App.css'
+import { Card } from './components/Card.tsx';
 import { ChaiCard } from './components/ChaiCard.tsx';
 import ChaiList from './components/ChaiList.tsx';
 import { Counter } from './components/Counter.tsx';
@@ -37,6 +38,13 @@ function App() {
         onSubmit={(order) => {
           console.log("Placed : ", order.name, order.cups);
         }}
+        />
+      </div>
+
+      <div>
+        <Card
+        title='Chai aur TypeScript'
+        footer={<button>Order Now</button>}
         />
       </div>
     </>
